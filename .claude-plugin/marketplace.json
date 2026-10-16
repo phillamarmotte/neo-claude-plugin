@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "iparapheur-neo",
+  "description": "Extensions Claude Code pour le parapheur électronique iparapheur Neo (Libriciel).",
+  "owner": {
+    "name": "Rémi Dubourget"
+  },
+  "plugins": [
+    {
+      "name": "iparapheur",
+      "description": "Branche Claude Code sur le serveur MCP d'iparapheur Neo : bannettes, recherche de dossiers, visa et rejet confirmés, absences.",
+      "source": "./plugins/iparapheur",
+      "category": "productivity"
+    }
+  ]
+}

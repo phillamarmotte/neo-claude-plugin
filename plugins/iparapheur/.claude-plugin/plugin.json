@@ -1,0 +1,24 @@
+{
+  "name": "iparapheur",
+  "version": "0.1.0",
+  "description": "Branche Claude Code sur le serveur MCP d'iparapheur Neo : ce qu'il y a à traiter, recherche de dossiers, visa et rejet confirmés dossier par dossier, absences.",
+  "author": {
+    "name": "Rémi Dubourget"
+  },
+  "keywords": ["iparapheur", "parapheur", "libriciel", "mcp"],
+  "userConfig": {
+    "url": {
+      "type": "string",
+      "title": "Adresse de l'instance",
+      "description": "Adresse de votre iparapheur Neo, sans /mcp ni barre finale (ex. https://parapheur.exemple.fr).",
+      "required": true
+    },
+    "token": {
+      "type": "string",
+      "title": "Jeton d'API",
+      "description": "Jeton personnel ipn_… créé dans Préférences › Mes jetons d'API, portées Lecture (et Actions sur les dossiers pour viser ou rejeter).",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
